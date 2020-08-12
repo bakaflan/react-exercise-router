@@ -8,7 +8,7 @@ header{
 
 }
 
-a{
+a,h2{
     color: grey;
     padding: 10px;
     text-decoration: none;
@@ -27,3 +27,16 @@ a:hover {
 .content {
     margin: 20px;
 }
+
+.product{
+    text-decoration: none;
+    font-size: 20px;
+    color: red;
+}
+
+.products {
+    display: flex;
+    flex-direction:column;
+    margin: 20px;
+}
+
